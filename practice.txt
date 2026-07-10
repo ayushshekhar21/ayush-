@@ -1,0 +1,104 @@
+print("hello world")
+print("my name is ayush")
+print("my age is 19")
+
+name = "ayush"
+age = 19
+
+print(name)
+print(age)
+
+print("my name is:",name)
+print("my age is:",age)
+
+print(type(name))
+print(type(age))
+
+old= False
+a=None
+
+print(type(old))
+print(type(a))
+
+a = 100000
+b = 25000
+sum = a+b 
+print(sum)
+
+
+#a = 5
+#b = 2
+#print(a+b)
+#print(a-b)
+#print(a*b)
+#print(a/b)
+#print(a**b)#a^b
+#print(a % b)#remainder
+
+
+#a = 10
+#b = 5
+#print(a==b)#False
+#print(a!=b)#True
+#print(a>=b)#True
+#print(a<=b)#False
+
+
+#num = 10
+#num /=10
+#print("num :",num)
+
+
+
+#a = 10
+# b = 5
+#print(not False)
+#print((a>b))
+
+
+#a = 3.14
+#a = str("a")
+#print(type(a))
+#name = input("enter your name:")
+#age = input("enter your age:")
+#marks = input("enter your marks:")
+#print("welcome",name)
+#print("age = ",age)
+#print("marks = ",marks)
+
+
+
+# str1 = "Ayush"
+# str2 = "shekhar"
+# print (str1 + str2)
+
+# str1 = "Ayush"
+# len1 = len(str1)
+# str2 = "shekhar"
+# len2 = len(str2)
+# print(len1)
+# print(len2)
+# final_len = len1 + len2
+# print(final_len)
+# final_str = str1 + ""  + str2
+# print(final_str)
+
+
+# str = "Ayush shekhar"
+# # chr = str[2]
+# print(chr)
+
+
+# str = "Ayush shekhar"
+# print(str[0:2])
+# str = "Ayush shekhar"
+# print(str[-5:])
+
+
+# name = input("enter your name:")
+# print("length of your name is",len(name))
+
+ 
+
+
+
