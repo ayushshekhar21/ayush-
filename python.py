@@ -729,3 +729,274 @@
 
 # square1 = Number()
 # print(square1.square(5))
+
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+# Student1 = Student("Ayush", 18)
+# Student2 = Student("Aayush", 20)
+
+# print(Student1.name, Student1.age)
+# print(Student2.name, Student2.age)
+
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+# Student1 = Student("Ayush", 18)
+# print("My name is:", Student1.name)
+# print("My age is:", Student1.age)
+
+# class Books:
+#     def __init__(self, title, author):
+#         self.title = title
+#         self.author = author
+# Books1 = Books("Learn python","Ayush")
+# print("Books title is:", Books1.title)
+# print("Book author is:", Books1.author)
+
+# class Product:
+#     def __init__(self, name, price):
+#         self.name = name
+#         self.price = price
+
+# product1 = Product("Protein powder", "RS 2500")
+# print(product1.name)
+# print(product1.price)
+
+
+# class BankAccount:
+#     def __init__(self, balance):
+#         self._balance = balance
+
+#     def deposit(self,amount):
+#         self._balance += amount
+
+#     def display_balance(self):
+#         print("balance:",self._balance)
+
+# account1 = BankAccount(50000)
+
+# account1.deposit(20000)
+# account1.display_balance()
+
+# class Student:
+#     def __init__(self,name):
+#         self.name = name
+
+#     def new_name(self,new_name):
+#         self.name = new_name
+
+# student1 = Student("Ayush")
+# print(student1.name)
+
+# student1.new_name("AYUSH")
+# print(student1.name)
+
+# class Student:
+#     def __init__(self,name):
+#         self.name = name
+
+# student1 = Student("Ayush")
+# student2 = Student("AYUSH")
+
+# print(student1.name)
+# print(student2.name)
+
+
+# class Mobile:
+#     def __init__(self,brand,model,price):
+#         self.brand = brand
+#         self.model = model
+#         self.price = price
+
+#     def display_information(self):
+#         print("BRAND:",self.brand)
+#         print("MODEL:",self.model)
+#         print("PRICE:",self.price)
+
+# mobile1 = Mobile("Samsung","s26 ultra","76000")
+# mobile1.display_information()
+
+# class Calculator:
+#     def addition(self,a,b):
+#         return a+b
+#     def substraction(self,a,b):
+#         return a-b
+#     def multiplication(self,a,b):
+#         return a*b
+#     def division(self,a,b):
+#         return a/b
+
+# cal = Calculator()
+
+# print("Addition:",cal.addition(20,10))
+# print("subtraction:",cal.substraction(20,10))
+# print("Multiplication:",cal.multiplication(20,10))
+# print("Division:",cal.division(20,10))
+
+# try:
+#     num1 = int(input("Enter first number:"))
+#     num2 = int(input("Enter second number:"))
+
+#     result = num1/num2
+#     print("Result:",result)
+
+# except ZeroDivisionError:
+#     print("Error: Cannot divided by zero")
+
+# try:
+#     num = int(input("Enter a number:"))
+#     print("NUMBER:",num)
+
+# except ValueError:
+#     print("Error: You can only input numbers")
+
+# try:
+#     num1 = int(input("Enter a number:"))
+#     num2 = int(input("Enter a second number"))
+#     result = num1/num2
+#     print("Result:",result)
+
+# except Exception as e:
+#     print("An error occured:",e)
+
+# try:
+#     age = int(input("Enter your age:"))
+#     print("Your age is:",age)
+
+# except ValueError:
+#     print("You entered wrong")
+
+# my_list = [10, 20, 30, 40, 50]
+
+# try:
+#     index = int(input("Enter the index: "))
+#     print("Element:", my_list[index])
+
+# except IndexError:
+#     print("Error: That index does not exist.")
+
+# except ValueError:
+#     print("Error: Please enter a valid integer index.")
+
+# student = {
+#     "name": "Ayush",
+#     "age": "19",
+#     "topic": "Python"
+
+# }
+# try:
+#     key = input("Enter a key:")
+#     print("Value:",student[key])
+
+# except KeyError:
+#     print("This key doesn't exist")
+
+
+# try:
+#     file = open("data.txt", "r")
+#     content = file.read()
+#     print(content)
+#     file.close()
+
+# except FileNotFoundError:
+#     print("Error: The file does not exist.")
+
+# try:
+#     num1 = int(input("Enter first number:"))
+#     num2 = int(input("Enter second number:"))
+#     result = num1/num2
+#     print("Result:",result)
+
+# except ZeroDivisionError:
+#     print("Not divisible by zero")
+
+# except ValueError:
+#     print("This is not the correct value")
+
+# try:
+#     num = int(input("Enter a number:"))
+#     Square = num*num
+#     print("Square:",Square)
+
+# except ValueError:
+#     print("Invalid error")
+
+
+# try:
+#     num1 = int(input("Enter first number:"))
+#     num2 = int(input("Enter second number:"))
+#     result = num1/num2
+
+# except ZeroDivisionError:
+#     print("Cannot divided byzero")
+
+# except ValueError:
+#     print("Enter a valid value")
+
+# else:
+#     print("Result:",result)
+
+
+# try:
+#     num1 = int(input("Enter first number:"))
+#     num2 = int(input("Enter second number:"))
+#     result = num1+num2
+
+# except ValueError:
+#     print("Enter as valid value")
+
+# else:
+#     print("Result:",result)
+
+# finally:
+#     print("Programm finished")
+
+
+# try:
+#     num = int(input("Enter an integer:"))
+#     print("You entered:",num)
+
+# except ValueError:
+#     print("Error: Please enter a valid integer")
+
+# finally:
+#     print("Thank You")
+
+
+# age = int(input("Enter your age:"))
+
+# if age < 18 :
+#     raise Exception("Age must be 18 or above 18")
+
+# print("You are eligible")
+
+
+# num = int(input("Enter a number:"))
+
+# if num < 0 :
+#     raise ValueError("Enter a positive value")
+
+# print("You entered:",num)
+
+
+# password = input("Enter your password:")
+
+# if len(password) < 8:
+#     raise Exception("Password must be of 8 character or more")
+
+# print("Your password:", password)
+
+
+# marks = int(input("Enter your marks:"))
+
+# if marks< 0 or marks>100:
+#     print("Enter a valid marks")
+
+# print("Your marks:",marks)
+
+
